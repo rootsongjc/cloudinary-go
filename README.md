@@ -12,7 +12,7 @@ Install the CLI tool and the library with:
 go get github.com/rootsongjc/cloudinary-go/cloudinary
 ```
 
-Or download the release binary from [release](https://github.com/rootsongjc/cloudinary-go/release).
+Or download the release binary from [release](https://github.com/rootsongjc/cloudinary-go/releases).
 
 ## Configuration
 
