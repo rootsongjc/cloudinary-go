@@ -26,7 +26,7 @@ import (
 // lsCmd represents the ls command
 var lsCmd = &cobra.Command{
 	Use:   "ls",
-	Short: "list files",
+	Short: "List files",
 	Run: func(cmd *cobra.Command, args []string) {
 		// list all resources
 		if optImg == "" && optRaw == "" {
