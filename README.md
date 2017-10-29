@@ -8,15 +8,17 @@ Installation
 
 Install the CLI tool and the library with:
 
-```Bash
+```
 go get github.com/rootsongjc/cloudinary-go/cloudinary
 ```
+
+Or download the release binary from [release](https://github.com/rootsongjc/cloudinary-go/release).
 
 ## Configuration
 
 Create a default configuration file named `${HOME}/.cloudinary.toml` 
 
-```toml
+```
 [cloudinary]
 uri=cloudinary://api_key:api_secret@cloud_name # check your cloudinary dashboard to the the uri
 prepend = "images" # default cloudinary folder
@@ -26,7 +28,7 @@ Usage
 -----
 
 
-```bash
+```
 A CLI tool to upload static assets to the Cloudinary service.
 
 Usage:
